@@ -9,7 +9,7 @@ public class OrderResponseDTO {
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
 	private String goodsName;
-	
+
 	public OrderResponseDTO(Orders order) {
 		super();
 		this.id = order.getId();
@@ -17,7 +17,7 @@ public class OrderResponseDTO {
 		this.updatedAt = order.getUpdatedAt();
 		this.goodsName = order.getGoodsName();
 	}
-	
+
 	public long getId() {
 		return id;
 	}
@@ -48,5 +48,9 @@ public class OrderResponseDTO {
 
 	public void setGoodsName(String goodsName) {
 		this.goodsName = goodsName;
+	}
+
+	public void TestChearyPick2() {
+		// Test ChearyPick
 	}
 }
