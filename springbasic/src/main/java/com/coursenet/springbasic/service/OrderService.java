@@ -30,4 +30,9 @@ public class OrderService {
 		//isi fitur 1
 	}
 
+	public void feature_1() {
+		//Fitur 1
+		
+	}
+
 }
