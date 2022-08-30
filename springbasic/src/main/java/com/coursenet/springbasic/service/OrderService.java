@@ -25,5 +25,9 @@ public class OrderService {
 		OrderResponseDTO orderResponse = new OrderResponseDTO(order);
 		return orderResponse;
 	}
+	
+	public void feature_1(){
+		//isi fitur 1
+	}
 
 }
