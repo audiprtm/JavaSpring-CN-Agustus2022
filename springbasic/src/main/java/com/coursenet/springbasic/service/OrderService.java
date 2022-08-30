@@ -26,8 +26,9 @@ public class OrderService {
 		return orderResponse;
 	}
 	
-	public void feature_1(){
+	public void feature_1_buatan_developer_1(){
 		//isi fitur 1
+		//implementasi baru fitur 1 oleh dev 2
 	}
 	
 	public void feature_2(){
