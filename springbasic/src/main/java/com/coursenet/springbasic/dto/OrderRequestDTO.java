@@ -10,4 +10,9 @@ public class OrderRequestDTO {
 	public void setGoodsName(String goodsName) {
 		this.goodsName = goodsName;
 	}
+
+	public void testChearyPick()
+	{
+	  // Test ChearyPick
+	}
 }
