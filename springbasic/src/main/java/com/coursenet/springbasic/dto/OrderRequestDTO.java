@@ -11,8 +11,11 @@ public class OrderRequestDTO {
 		this.goodsName = goodsName;
 	}
 
-	public void testChearyPick()
-	{
-	  // Test ChearyPick
+	public void testChearyPick() {
+		// Test ChearyPick
+	}
+
+	public void fiturHaris2() {
+		// Fitur Haris 2
 	}
 }
