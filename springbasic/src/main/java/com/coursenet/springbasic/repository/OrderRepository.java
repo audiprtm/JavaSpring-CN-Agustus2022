@@ -7,5 +7,5 @@ import com.coursenet.springbasic.entity.Orders;
 
 @Repository
 public interface OrderRepository extends JpaRepository<Orders, Long>{
-
+	//function fitur 3
 }
