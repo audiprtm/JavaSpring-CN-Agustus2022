@@ -1,13 +1,10 @@
 package com.coursenet.springbasic.dto;
 
+import lombok.Data;
+
+@Data
 public class OrderRequestDTO {
 	private String goodsName;
-
-	public String getGoodsName() {
-		return goodsName;
-	}
-
-	public void setGoodsName(String goodsName) {
-		this.goodsName = goodsName;
-	}
+	private String receiverName;
+	private String receiverAddress;
 }

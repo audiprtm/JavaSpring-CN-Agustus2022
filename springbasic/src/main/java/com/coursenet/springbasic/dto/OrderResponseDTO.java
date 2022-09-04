@@ -4,11 +4,16 @@ import java.time.LocalDateTime;
 
 import com.coursenet.springbasic.entity.Orders;
 
+import lombok.Data;
+
+@Data
 public class OrderResponseDTO {
 	private long id;
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
 	private String goodsName;
+	private String receiverName;
+	private String receiverAddress;
 
 	public OrderResponseDTO(Orders order) {
 		super();
@@ -16,41 +21,11 @@ public class OrderResponseDTO {
 		this.createdAt = order.getCreatedAt();
 		this.updatedAt = order.getUpdatedAt();
 		this.goodsName = order.getGoodsName();
+		this.receiverName = order.getReceiverName();
+		this.receiverAddress = order.getReceiverAddress();
 	}
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
-
-	public LocalDateTime getCreatedAt() {
-		return createdAt;
-	}
-
-	public void setCreatedAt(LocalDateTime createdAt) {
-		this.createdAt = createdAt;
-	}
-
-	public LocalDateTime getUpdatedAt() {
-		return updatedAt;
-	}
-
-	public void setUpdatedAt(LocalDateTime updatedAt) {
-		this.updatedAt = updatedAt;
-	}
-
-	public String getGoodsName() {
-		return goodsName;
-	}
-
-	public void setGoodsName(String goodsName) {
-		this.goodsName = goodsName;
-	}
-
-	public void TestChearyPick2() {
-		// Test ChearyPick
+	
+	public OrderResponseDTO() {
+		super();
 	}
 }
